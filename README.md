@@ -1,7 +1,6 @@
 # 🧭 Valley Scanner — A Numerical Framework to Explore the Riemann Zeta Landscape
 
-**Author:** Jacob Orellana
-**Repository:** [github.com/jacobore/valley_scanner](https://github.com/jacobore/valley_scanner)
+**Author:** Jacob Orellana Real
 
 ---
 
@@ -36,7 +35,7 @@ In short: **the terrain itself reveals the zeros.**
 
 * Demonstration that $|Z(s)|$ terrain symmetry can reproduce zero density without Gram alignment.
 * Experimental validation at multiple $t$ scales (up to $t \approx 2\times10^{15}$).
-* Ultra–high-$t$ evaluations beyond $t = 10^{20}$ showing numerical stability and precision.
+* high-$t$ evaluations beyond $t = 10^{20}$ showing numerical stability and precision.
 * Complete datasets and Python tools for reproducibility.
 
 ### 📄 Academic Paper
@@ -87,7 +86,7 @@ Where:
 
 Example dataset link:
 
-> [refined_sample_1122334455.csv](https://github.com/jacobore/valley_scanner/blob/main/data/refined_sample_1122334455.csv)
+> [refined_sample_1122334455.csv](https://github.com/jacoboreore/z-valley-scanner/blob/main/datasets/refined_sample_1122334455.csv)
 
 ---
 
@@ -108,8 +107,6 @@ The project aims to:
 2. Encourage **collaboration on large-scale distributed scans**.
 3. Refine the theoretical interpretation of valley geometry and zero density.
 
-Further experiments could explore energy-like curvature properties of $|Z(s)|$, higher-order correlations, or potential machine learning applications on valley patterns.
-
 ---
 
 ## 💡 Quick Start
@@ -117,8 +114,8 @@ Further experiments could explore energy-like curvature properties of $|Z(s)|$, 
 Clone the repository:
 
 ```bash
-git clone https://github.com/jacobore/valley_scanner.git
-cd valley_scanner
+git clone https://github.com/jacoboreore/z-valley-scanner.git
+cd z-valley-scanner
 ```
 
 Install dependencies (if required):
@@ -141,9 +138,9 @@ This project is published under the **MIT License**.
 If you reference the datasets or visualizations, please cite:
 
 > Orellana, J. *Valley Scanner: A Continuous Method for Detecting Zeta Zeros Without Gram Alignment.* (2025).
-> [github.com/jacobore/valley_scanner](https://github.com/jacobore/valley_scanner)
+> [github.com/jacobore/z-valley_scanner](https://github.com/jacoboreore/z-valley-scanner)
 
 ---
 
-*“The mountains are the oscillations; the valleys are the truth.”*
+*“Walk the mountains, rest at the valleys. All is revealed with symmetry.”*
 — *Valley Scanner Project, 2025*
