@@ -201,7 +201,6 @@ def validate_zeta_zero(
     return zeta_val, zero_likely, refined_t
 
 
-# ---------------------- Optional CLI ----------------------
 if __name__ == "__main__":
     if len(sys.argv) < 3:
         print("Usage: python validate_zero.py <sigma> <t> [--prec BITS] [--iters N] [--thr THRESH]")

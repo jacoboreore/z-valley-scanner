@@ -21,7 +21,7 @@ from pathlib import Path
 import pandas as pd
 
 # ----------------- Load zeros (imag parts) -----------------
-df = pd.read_csv("datasets/5000_zeros.csv")
+df = pd.read_csv("datasets/5000_zeros_for_testing.csv")
 
 # Expect a column named 'real_y' with gamma values > 0
 y_values = pd.to_numeric(df["real_y"], errors="coerce").to_numpy(dtype=np.float64)
@@ -29,14 +29,13 @@ y_values = y_values[np.isfinite(y_values)]
 y_values = y_values[y_values > 0.0]
 y_values.sort()
 
-# Optional: cap how many zeros to include (keep simple)
+# Optional: cap how many zeros to include
 # N = 5000
 # y_values = y_values[:N]
 
 print(f"Using {len(y_values)} zeros")
 
 # ----------------- Grid and correction -----------------
-# x > 1 so log(x) is safe and meaningful; adjust range as you like
 x = np.linspace(1.0, 50.0, 1000, dtype=np.float64)
 logx = np.log(x)
 
