@@ -138,7 +138,6 @@ This project is published under the **MIT License**.
 If you reference the datasets or visualizations, please cite:
 
 > Orellana, J. *Valley Scanner: A Continuous Method for Detecting Zeta Zeros Without Gram Alignment.* (2025).
-> [github.com/jacobore/z-valley_scanner](https://github.com/jacoboreore/z-valley-scanner)
 
 ---
 
