@@ -35,7 +35,7 @@ In short: **the terrain itself reveals the zeros.**
 
 * Demonstration that $|Z(s)|$ terrain symmetry can reproduce zero density without Gram alignment.
 * Experimental validation at multiple $t$ scales (up to $t \approx 2\times10^{15}$).
-* high-$t$ evaluations beyond $t = 10^{20}$ showing numerical stability and precision.
+* high-t evaluations beyond $t = 10^{20}$ showing numerical stability and precision.
 * Complete datasets and Python tools for reproducibility.
 
 ### 📄 Academic Paper
@@ -70,7 +70,7 @@ This script is ideal for newcomers who want to visually confirm how the method d
 The repository includes:
 
 * Datasets published in the paper (`refined_sample_*.csv`)
-* Additional high-$t$ datasets confirming reproducibility and valley consistency across independent runs.
+* Additional high-t datasets confirming reproducibility and valley consistency across independent runs.
 
 Each dataset contains:
 
@@ -93,7 +93,7 @@ Example dataset link:
 ## ⚙️ Technical Notes
 
 * Calculations use **MPFR precision arithmetic** for numerical stability.
-* High-$t$ runs are distributed across multi-core EC2 instances (up to 192 CPUs per job).
+* High-t runs are distributed across multi-core EC2 instances (up to 192 CPUs per job).
 * Each confirmed zero is verified by symmetric evaluation of conjugate terms.
 * The process supports horizontal scaling — distributed batches can theoretically reach *cosmic-$t$* ranges (beyond $10^{22}$) with sufficient resources.
 
