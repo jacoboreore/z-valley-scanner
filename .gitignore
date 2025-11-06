@@ -1,1 +1,30 @@
+# jacob
 first_commit.txt
+tests/
+
+# others
+# VCS & metadata
+.git
+.gitignore
+.github
+.vscode
+.idea
+
+# Secrets & configs
+.env
+*.pem
+*.key
+*.crt
+conf/*           # if you plan to mount configs instead of COPY
+conf-private/*
+
+# Build artifacts
+bin/
+build/
+dist/
+*.o
+*.d
+
+# Data & logs
+logs/
+*.log
