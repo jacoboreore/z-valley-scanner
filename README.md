@@ -121,14 +121,14 @@ Once inside the container, you can execute the core tools through the helper scr
 
 | Command                                                   | Description                                                                      |
 | --------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| `/app/bin/run.sh z <t> <job_id>`                          | Compute **Z(t)** at a single point.                                              |
-| `/app/bin/run.sh z_ball <t> <job_id>`                     | Compute **Z(t)** using the alternative *ball-based* evaluation.                  |
-| `/app/bin/run.sh pre_filter <t>`                          | Perform a *pre-filter* evaluation at `t` (quick test).                           |
-| `/app/bin/run.sh valley_scanner <t> <job_id>`             | Scan a small region around `t` for candidate zeros.                              |
-| `/app/bin/run.sh valley_walk <t> <num_zeros> <job_id>`    | Walk along successive valleys starting from `t` for a specified number of zeros. |
-| `/app/bin/run.sh refine <t> <job_id>`                     | Refine a previously estimated zero around `t`.                                   |
-| `/app/bin/run.sh refine_progressive <file_path> <job_id>` | Perform a *progressive refinement* pass using an existing CSV dataset.           |
-| `/app/bin/run.sh z_os <t> <job_id>`                       | Compute **Z(t)** using the *Odlyzko–Schönhage* algorithm.                        |
+| `/app/run.sh z <t> <job_id>`                          | Compute **Z(t)** at a single point.                                              |
+| `/app/run.sh z_ball <t> <job_id>`                     | Compute **Z(t)** using the alternative *ball-based* evaluation.                  |
+| `/app/run.sh pre_filter <t>`                          | Perform a *pre-filter* evaluation at `t` (quick test).                           |
+| `/app/run.sh valley_scanner <t> <job_id>`             | Scan a small region around `t` for candidate zeros.                              |
+| `/app/run.sh valley_walk <t> <num_zeros> <job_id>`    | Walk along successive valleys starting from `t` for a specified number of zeros. |
+| `/app/run.sh refine <t> <job_id>`                     | Refine a previously estimated zero around `t`.                                   |
+| `/app/run.sh refine_progressive <file_path> <job_id>` | Perform a *progressive refinement* pass using an existing CSV dataset.           |
+| `/app/run.sh z_os <t> <job_id>`                       | Compute **Z(t)** using the *Odlyzko–Schönhage* algorithm.                        |
 
 ---
 
