@@ -212,5 +212,11 @@ If you reference the datasets or visualizations, please cite:
 
 ---
 
+### 📜 License and Usage
+- Core computation binaries and algorithms: **Proprietary — All rights reserved.**
+- Datasets and visualization scripts: **MIT License** (see [LICENSE](LICENSE)).
+
+---
+
 *“Walk the mountains, rest at the valleys. All is revealed with symmetry.”*
 — *Valley Scanner Project, 2025*
