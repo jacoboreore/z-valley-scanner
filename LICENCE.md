@@ -1,6 +1,5 @@
-==================================================================
 Valley Scanner © 2025 Jacob Orellana. All rights reserved.
-==========================================================
+
 
 ## 1. Scope
 
@@ -82,13 +81,13 @@ OTHER DEALINGS IN THE SOFTWARE.
 If you reference the datasets, visualizations, or results derived from this repository, please cite:
 
 > **Orellana, J. (2025). *Valley Scanner: A Continuous Method for Detecting Zeta Zeros Without Gram Alignment*.**
-> [https://github.com/jacobore/z-valley-scanner](https://github.com/jacobore/z-valley-scanner)
+> [https://github.com/jacoboreore/z-valley-scanner/tree/main](https://github.com/jacoboreore/z-valley-scanner/tree/main)
 
 ---
 
 ## 6. Contact
 
 For licensing inquiries or collaboration requests, please contact:
-📧 **[jacoborellana@gmail.com](mailto:jacoborellana@gmail.com)**
+📧 **[jacoboreore@gmail.com](mailto:jacoboreore@gmail.com)**
 
 
