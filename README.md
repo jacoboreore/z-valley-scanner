@@ -1,6 +1,7 @@
 # 🧭 Valley Scanner — A Numerical Framework to Explore the Riemann Zeta Landscape
 
 **Author:** Jacob Orellana Real
+
 **Contact:** jacoboreore@gmail.com
 
 
